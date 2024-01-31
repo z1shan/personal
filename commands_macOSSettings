@@ -1,0 +1,18 @@
+// Dock_Mode for MacBook
+sudo pmset -b sleep 0; sudo pmset -b disablesleep 1
+
+// Grid_Size for Launchpad
+defaults write com.apple.dock springboard-rows -int 5
+defaults write com.apple.dock springboard-columns -int 6;killall Dock
+
+// Change Screenshot Type
+defaults write com.apple.screencapture type JPG
+
+// Quick Hide Dock
+defaults write com.apple.dock autohide-time-modifier -int 0;killall Dock
+
+// Add Microphone Permissions for Teams
+./tccplus add Microphone com.microsoft.teams2
+
+// Reduce Font Smoothing
+defaults -currentHost write -g AppleFontSmoothing -int 1
