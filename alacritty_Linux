@@ -1,0 +1,19 @@
+live_config_reload: true
+
+window:
+  opacity: 0.65
+  padding:
+    x: 18
+    y: 16
+  dynamic_padding: false
+  decorations: none
+  dimensions:
+    columns: 101
+    lines: 40
+  
+
+font:
+  normal:
+    family: "JetBrainsMonoNL Nerd Font Mono"
+    style: Regular
+  size: 10
