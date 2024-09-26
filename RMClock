@@ -1,0 +1,78 @@
+[Rainmeter]
+
+[Metadata]
+Name=Shadow Clock
+Author=ReD is what I want as a username but I have no choice to but go with SugMadik
+Information=Best for light background.
+Version=1.0
+Disclaimer: CTTO
+
+[Background]
+Meter=IMAGE
+X=0
+Y=0
+ImageName=bg.png
+
+;---------------------------
+
+[MeasureTime]
+Measure=Time
+Format=%#I:%M
+
+[MeasureDate]
+Measure=Time
+Format="%#d"
+
+[MeasureDateSfx]
+Measure=Time
+Format="%d"
+Substitute="01":"st","02":"nd","03":"rd","04":"th","05":"th","06":"th","07":"th","08":"th","09":"th","10":"th","11":"th","12":"th","13":"th","14":"th","15":"th","16":"th","17":"th","18":"th","19":"th","20":"th","21":"st","22":"nd","23":"rd","24":"th","25":"th","26":"th","27":"th","28":"th","29":"th","30":"th","31":"st"
+
+[MeasureMonth]
+Measure=Time
+Format=%B
+RegExpSubstitute=1
+Substitute="^([\w]{3}).*$":"\1"
+
+[MeasureWeekday]
+Measure=Time
+Format=%A
+RegExpSubstitute=1
+Substitute="^([\w]{3}).*$":"\1"
+
+[MeasureYear]
+Measure=Time
+Format=%Y
+
+;---------------------------
+[MeterTime]
+Meter=STRING
+Measurename=MeasureTime
+X=160
+Y=25
+H=150
+W=250
+FontColor=255,255,255,180
+FontSize=130
+FontFace=SF NS Compressed
+StringAlign=Center
+AntiAlias=1
+
+
+[MeterDateMonthYear]
+Meter=STRING
+Measurename=MeasureDate
+MeasureName2=MeasureMonth
+MeasureName3=MeasureWeekday
+X=160
+Y=12
+H=150
+W=250
+FontColor=255,255,255,180
+FontSize=27
+FontFace=SF Pro Rounded Semibold
+StringAlign=center
+StringCase=Upper Camel
+Text=%3, %1 %2.
+AntiAlias=1
+ClipString=4
