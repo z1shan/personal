@@ -52,12 +52,14 @@ X=160
 Y=25
 H=150
 W=250
-FontColor=255,255,255,2000
+FontColor=255,255,255
 FontSize=130
 FontFace=SF NS Compressed
 StringAlign=Center
 AntiAlias=1
 StringEffect=SHADOW
+StringCase=UPPER
+
 
 [MeterDateMonthYear]
 Meter=STRING
@@ -68,12 +70,13 @@ X=160
 Y=12
 H=150
 W=250
-FontColor=255,255,255,2000
+FontColor=255,255,255
 FontSize=27
 FontFace=SF Pro Rounded Semibold
 StringAlign=center
-StringCase=Upper Camel
-Text=%3, %1 %2.
+StringCase=Upper
+Text=%3, %1 %2
 AntiAlias=1
 ClipString=4
 StringEffect=SHADOW
+
