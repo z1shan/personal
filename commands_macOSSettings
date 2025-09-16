@@ -11,8 +11,5 @@ defaults write com.apple.screencapture type JPG
 // Quick Hide Dock
 defaults write com.apple.dock autohide-time-modifier -int 0;killall Dock
 
-// Add Microphone Permissions for Teams
-./tccplus add Microphone com.microsoft.teams2
-
 // Reduce Font Smoothing
 defaults -currentHost write -g AppleFontSmoothing -int 1
