@@ -48,7 +48,7 @@ defaults write com.apple.finder "ShowPathbar" -bool "true" && killall Finder
 defaults write NSGlobalDomain "AppleShowAllExtensions" -bool "true" && killall Finder
 
 :  Dock Icon Size 
-defaults write com.apple.dock "tilesize" -int "44" && killall Dock
+defaults write com.apple.dock "tilesize" -int "45" && killall Dock
 
 :  Disable Screenshot Shadow 
 defaults write com.apple.screencapture "disable-shadow" -bool "true"
