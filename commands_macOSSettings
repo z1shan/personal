@@ -51,7 +51,7 @@ defaults write NSGlobalDomain "AppleShowAllExtensions" -bool "true" && killall F
 defaults write com.apple.dock "tilesize" -int "44" && killall Dock
 
 :  Disable Screenshot Shadow 
-defaults write com.apple.screencapture "disable-shadow" -bool "false"
+defaults write com.apple.screencapture "disable-shadow" -bool "true"
 
 :  Show Recent Apps Dock 
 defaults write com.apple.dock "show-recents" -bool "false" && killall Dock
