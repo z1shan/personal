@@ -27,7 +27,7 @@ defaults write com.apple.CloudSubscriptionFeatures.optIn "545129924" -bool "fals
 defaults write com.apple.finder "CreateDesktop" -bool "true" && killall Finder
 
 : Display Icon Info
-defaults write com.apple.finder ShowItemInfo -bool false && killall Finder
+defaults write com.apple.finder ShowItemInfo -bool "false" && killall Finder
 
 :  Show Disks 
 defaults write com.apple.finder "ShowHardDrivesOnDesktop" -bool "true" && killall Finder
