@@ -11,47 +11,47 @@ defaults write com.apple.screencapture type JPG
 // Quick Hide Dock
 defaults write com.apple.dock autohide-time-modifier -int 0;killall Dock
 
-// Reduce Font Smoothing
+# Reduce Font Smoothing
 defaults -currentHost write -g AppleFontSmoothing -int 1
 
-// Use Tab Navigation
+# Use Tab Navigation
 defaults write NSGlobalDomain AppleKeyboardUIMode -int "2"
 
-// Three-finger dragging
+# Three-finger dragging
 defaults write com.apple.AppleMultitouchTrackpad "TrackpadThreeFingerDrag" -bool "true"
 
-// Disable Apple Intelligence
+# Disable Apple Intelligence
 defaults write com.apple.CloudSubscriptionFeatures.optIn "545129924" -bool "false"
 
-// Display Desktop Icons
+# Display Desktop Icons
 defaults write com.apple.finder "CreateDesktop" -bool "false" && killall Finder
 
-// Show Disks
+# Show Disks
 defaults write com.apple.finder "ShowHardDrivesOnDesktop" -bool "true" && killall Finder
 
-// File Extension Warning
+# File Extension Warning
 defaults write com.apple.finder "FXEnableExtensionChangeWarning" -bool "false" && killall Finder
 
-// Finder Status Bar
+# Finder Status Bar
 defaults write com.apple.finder "ShowStatusBar" -bool "true" && killall Finder
 
-// Folder on Top
+# Folder on Top
 defaults write com.apple.finder "_FXSortFoldersFirst" -bool "true" && killall Finder
 
-// Show Path Finder
+# Show Path Finder
 defaults write com.apple.finder "ShowPathbar" -bool "true" && killall Finder
 
-// Show File Extensions
+# Show File Extensions
 defaults write NSGlobalDomain "AppleShowAllExtensions" -bool "true" && killall Finder
 
-// Dock Icon Size
+# Dock Icon Size
 defaults write com.apple.dock "tilesize" -int "42" && killall Dock
 
-// Disable Screenshot Shadow
+# Disable Screenshot Shadow
 defaults write com.apple.screencapture "disable-shadow" -bool "true"
 
-// Show Recent Apps Dock
+# Show Recent Apps Dock
 defaults write com.apple.dock "show-recents" -bool "false" && killall Dock
 
-// Focus Follow Mouse
+# Focus Follow Mouse
 defaults write com.apple.Terminal "FocusFollowsMouse" -bool "true" && killall Terminal
