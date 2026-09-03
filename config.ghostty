@@ -1,0 +1,25 @@
+# Font
+font-family = JetBrainsMono Nerd Font Mono
+font-size = 13
+font-thicken = 1
+
+# Window
+window-decoration = true
+background-opacity = 0.75
+background-blur-radius = 20
+
+# Padding
+window-padding-x = 18
+window-padding-y = 16
+window-padding-balance = true
+
+# Initial window size — 110 columns × 45 rows
+window-width = 90   
+window-height = 37
+
+# Theme
+theme = Purplepeter
+macos-icon = glass
+
+#close-behaviour
+confirm-close-surface = false
