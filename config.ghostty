@@ -5,8 +5,8 @@ font-thicken = 1
 
 # Window
 window-decoration = true
-background-opacity = 0.75
-background-blur-radius = 20
+background-opacity = 0.80
+background-blur-radius = 50
 
 # Padding
 window-padding-x = 18
@@ -23,3 +23,7 @@ macos-icon = glass
 
 #close-behaviour
 confirm-close-surface = false
+
+#shell
+shell-integration-features = ssh-terminfo
+
