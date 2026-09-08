@@ -5,8 +5,8 @@ font-thicken = 1
 
 # Window
 window-decoration = true
-background-opacity = 0.80
-background-blur-radius = 50
+background-opacity = 0.75
+background-blur-radius = 25
 
 # Padding
 window-padding-x = 18
