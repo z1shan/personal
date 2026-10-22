@@ -1,6 +1,6 @@
 # Font
 font-family = JetBrainsMono Nerd Font Mono
-font-size = 13.2
+font-size = 13.5
 font-thicken = 1
 
 # Window
@@ -14,8 +14,8 @@ window-padding-y = 16
 window-padding-balance = true
 
 # Initial window size — 110 columns × 45 rows
-window-width = 90   
-window-height = 37
+window-width = 85
+window-height = 32
 
 # Theme
 theme = Purplepeter
@@ -26,4 +26,6 @@ confirm-close-surface = false
 
 #shell
 shell-integration-features = ssh-terminfo
+
+
 
